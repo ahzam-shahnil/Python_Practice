@@ -16,5 +16,5 @@ class Date:
         first = (self.day, self.month, self.year)
         second = (self.day, self.month, self.year)
         return first > second
-    # def imcrement_month(self, month):
+    # def increment_month(self, month):
     #     sel.
