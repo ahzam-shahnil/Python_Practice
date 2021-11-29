@@ -12,7 +12,7 @@ class Date:
         else:
             return False
 
-    def laterthan(self, other):
+    def later_than(self, other):
         first = (self.day, self.month, self.year)
         second = (self.day, self.month, self.year)
         return first > second
